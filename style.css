@@ -1,0 +1,63 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #F2EDE4;
+    background-image: url("https://i.pinimg.com/736x/be/1f/9e/be1f9e496d64338b6da39663e2b757da.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #F2EDE4;
+}
+
+ul {
+    font-family: "Montserrat", sans-serif;
+    color: #F2EDE4;
+}
+
+p {
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}.musicDiv {
+  
+  background-color: rgba(0, 200, 83, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 200, 83, 0.3);
+}
+
+.music-button {
+  background-color: #00c853;
+  box-shadow: 0 0 10px #007a33;
+}
+
+.music-button:hover {
+  box-shadow: 0 0 20px #33ff88, 0 0 40px #66ffaa;
+}
+.musicDiv {
+  padding: 30px 60px; /* ішкі бос орындарды үлкейтеді */
+  border-radius: 20px;
+}
+
+.music-button {
+  padding: 20px 50px;   
+  font-size: 20px;      
+}
+h2{
+font-family: "Montserrat", sans-serif;
+    color: #F2EDE4;
+}
